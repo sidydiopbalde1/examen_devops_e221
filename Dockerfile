@@ -39,4 +39,4 @@ RUN mv *.jar app.jar && ls -la app.jar
 
 EXPOSE ${PORT:-8080}
 
-CMD ["sh", "-c", "echo 'Démarrage de l\\'application...' && java -jar app.jar"]
+CMD ["java", "-jar", "app.jar"]
