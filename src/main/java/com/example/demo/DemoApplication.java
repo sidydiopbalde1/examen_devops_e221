@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
   public String home() {
-    return "SIdy DIop Balde examen DevOps CI CD";
+    return "SIdy DIop Balde examen DevOps CI CD 2";
   }
 }
