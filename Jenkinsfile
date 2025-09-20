@@ -30,7 +30,7 @@ pipeline {
                         def dockerImage = "${DOCKER_USER}/${appName}:${safeTag}"
 
                         sh """
-                            set -e
+                            'set -e
                             echo "Building Docker image e: ${dockerImage}"
                             docker build -t "${dockerImage}" .
 
