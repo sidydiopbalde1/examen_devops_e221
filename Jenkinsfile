@@ -31,7 +31,7 @@ pipeline {
 
                         sh """
                             set -e
-                            echo "Building Docker image: ${dockerImage}"
+                            echo "Building Docker image e: ${dockerImage}"
                             docker build -t "${dockerImage}" .
 
                             echo "Logging into Docker Hub..."
